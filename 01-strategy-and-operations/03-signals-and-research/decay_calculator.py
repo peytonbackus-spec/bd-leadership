@@ -23,5 +23,5 @@ def calculate_decayed_score(base_score: float, signal_type: str, signal_date_str
     return round(base_score * decay_factor, 2)
 
 if __name__ == "__main__":
-    sample_signal = calculate_decayed_score(base_score=100.0, signal_type="job_posting", signal_date_str="2026-09-01", reference_date=datetime(2026, 09, 23))
+    sample_signal = calculate_decayed_score(base_score=100.0, signal_type="job_posting", signal_date_str="2026-09-01", reference_date=datetime(2026, 9, 23))
     print(f"Decayed Signal Score: {sample_signal}")
