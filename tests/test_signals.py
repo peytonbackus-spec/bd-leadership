@@ -1,9 +1,14 @@
 import pytest
-import importlib
+import importlib.util
+from pathlib import Path
 from datetime import datetime
 
-# Dynamically import decay_calculator due to hyphens and numeric prefixes in folder paths
-decay_module = importlib.import_module("01-strategy-and-operations.03-signals-and-research.decay_calculator")
+# Resolve module using explicit file path to support hyphenated and numeric directory names
+file_path = Path(__file__).parent.parent / "01-strategy-and-operations" / "03-signals-and-research" / "decay_calculator.py"
+spec = importlib.util.spec_from_file_location("decay_calculator", file_path)
+decay_module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(decay_module)
+
 calculate_decayed_score = decay_module.calculate_decayed_score
 
 def test_signal_decay():
