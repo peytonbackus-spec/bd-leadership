@@ -86,3 +86,4 @@ python 02-execution-and-workflows/08-ai-workflows/pipeline.py build sample-data/
 # 5. Process human-approved briefs into sequence execution payloads
 python 02-execution-and-workflows/08-ai-workflows/pipeline.py enroll approval_queue.csv
 ```
+> 📖 **Documentation & Wiki:** View the complete operational playbook and architectural guides on our [GitHub Wiki](https://github.com/peytonbackus-spec/bd-leadership/wiki).

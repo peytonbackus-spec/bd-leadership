@@ -70,3 +70,15 @@ An operational map detailing bidirectional data flows, object mappings, automati
    * Webhook payloads match on `Email` first; if unmapped, creates a new Lead/Contact under the matching Account Domain.
 3. **Loop Prevention:**
    * Automated updates written by API service accounts bypass outward-bound triggers (e.g., updating `Last_Activity_Date` via Outreach API does not trigger CRM outbound webhooks back to Outreach).
+
+---
+
+## 5. Visual Data Flow (Mermaid Diagram)
+
+```mermaid
+flowchart LR
+    CRM[Salesforce / HubSpot CRM] <-->|Accounts, Contacts & Deals| Engagement[Outreach / Salesloft]
+    Engagement -->|Call Tasks & Contacts| Dialer[Parallel Dialer: Orum / Nooks]
+    Dialer -->|Call Logs & Dispositions| CRM
+    Enrichment[Clay / Apollo / Clearbit] -->|Enrichment & Signal Scoring| CRM
+```
