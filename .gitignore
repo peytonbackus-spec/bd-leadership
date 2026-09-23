@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+approval_queue.csv
+processed_outbound.csv
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
