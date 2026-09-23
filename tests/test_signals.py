@@ -1,6 +1,10 @@
 import pytest
+import importlib
 from datetime import datetime
-from 01-strategy-and-operations.03-signals-and-research.decay_calculator import calculate_decayed_score
+
+# Dynamically import decay_calculator due to hyphens and numeric prefixes in folder paths
+decay_module = importlib.import_module("01-strategy-and-operations.03-signals-and-research.decay_calculator")
+calculate_decayed_score = decay_module.calculate_decayed_score
 
 def test_signal_decay():
     ref_date = datetime(2026, 9, 23)
