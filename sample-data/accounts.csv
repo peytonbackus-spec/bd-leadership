@@ -1,0 +1,6 @@
+account_id,account_name,employees,revenue_m,has_salesforce,hiring_signal
+101,Acme Corp,1200,250,True,True
+102,Beta Logistics,150,15,False,False
+103,Gamma Systems,3500,800,True,True
+104,Delta Health,450,60,True,False
+105,Epsilon Tech,80,8,False,True
