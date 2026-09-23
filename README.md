@@ -1,89 +1,73 @@
-# GTM & Business Development Leadership Framework
+# Outbound BDR Leadership & GTM Execution Operating System
 
-An enterprise-grade blueprint, execution framework, and programmatic toolset for scaling outbound Go-To-Market (GTM) teams, account scoring, AI automation pipelines, and revenue operations.
+! [Build Status](h-ttps://github.com/peytonbackus-spec/bd-leadership/actions/workflows/ci.yml/badge.svg)
+
+> **How I build, coach, and scale outbound BDR teams — backed by hands-on sales development, structured coaching cadences, and automated AI workflows for scoring, research, and sequencing.**
 
 ---
 
-## Repository Architecture & Navigation
+## 𞝐 Who I Am & Leadership Philosophy
 
-```mermaid
-flowchart TD
-    classDef primary fill:#1f2937,stroke:#4f46e5,stroke-width:2px,color:#fff
-    classDef execution fill:#0f172a,stroke:#0ea5e9,stroke-width:1.5px,color:#fff
-    classDef strategy fill:#111827,stroke:#10b981,stroke-width:1.5px,color:#fff
-    classDef tools fill:#1e1b4b,stroke:#8b5cf6,stroke-width:1.5px,color:#fff
+I am a Business Development Leader with a proven track record of scaling outbound sales development teams, developing top-tier BDR talent, and building repeatable pipeline engines. 
 
-    Root["bd-leadership Repository"]
+My leadership approach balances * people-first coaching* with * operational discipline*:
+* **Hands-on Coaching:* Regular 1:1 call coaching, live phone block shadowing, and role-play frameworks that build rep confidence and skill.
+* **Pipeline Accountability:* Rigorous execution focused on high-conversion metrics: Meeting Set -> Meeting Held -> Sales Qualified Opportunity (SQO).**Modern Tooling as Leverage:* Building AI research tools and signal-scoring calculators to eliminate manual rep admin work so BDRs spend more time having high-value prospect conversations.
 
-    subgraph Strat["01. Strategy & Operations"]
-        Ops["01-operating-model"]
-        ICP["02-icp-and-account-scoring"]
-        Signals["03-signals-and-research"]
-        Metrics["07-metrics-and-forecasting"]
-    end
+---
 
-    subgraph Exec["02. Execution & Workflows"]
-        Campaigns["04-outbound-campaigns"]
-        AIWorkflows["08-ai-workflows"]
-        ToolEval["09-gtm-tool-evaluation"]
-        Stack["12-stack-configuration"]
-    end
+## 🚀 Start Here: Core Operating Systems
 
-    subgraph Enablement["03. Team & Enablement"]
-        Coaching["05-coaching"]
-        Hiring["06-hiring-and-onboarding"]
-        Alignment["10-cross-functional"]
-        Content["15-content-library-for-bdrs"]
-    end
+|Focus Area | Key Deliverables & Playbooks | Description |
+| :-- | :-- | :-- |
+| **1. People & Coaching** | [Coaching Scorecards & Frameworks](./03-team-and-enablement/05-coaching/)<br>[Retention & Team Health](./03-team-and-enablement/06-hiring-and-onboarding/retention-and-team-health.md) | Structured 1:1 call review scorecards, onboarding ramps, and rep development plans. |
+| **2. Metrics & Strategy** | [First 90 Days Plan](./05-proof-and-tools/11-first-90-days/role-tailored-execution-plan.md)<br>[Unit Economics & Capacity Math](./01-strategy-and-operations/07-metrics-and-forecasting/unit-economics.md)<br>[System Glossary](./01-strategy-and-operations/glossary.md) | Leadership blueprint for Month 1 phone blocks, team diagnostics, capacity models, and terminology source of truth. |
+| **3. AI Systems & Automation** | [Intent Signal Decay Calculator](./01-strategy-and-operations/03-signals-and-research/decay_calculator.py)<br>[Account Research & Brief Pipeline](./02-execution-and-workflows/08-ai-workflows/pipeline.py)<br>[Sync Architecture Spec](./02-execution-and-workflows/12-stack-configuration/sync-architecture.md) | Runnable Python engines for signal time-decay math, LLM account research briefs, and CRM sync rules. |
 
-    subgraph Compliance["04. Compliance & Coverage"]
-        Legal["13-compliance"]
-        Coverage["14-global-coverage"]
-    end
+---
 
-    subgraph Proof["05. Proof & Tools"]
-        CaseStudies["case-studies"]
-        Interactive["docs/capacity-calculator.html"]
-        Plan90["11-first-90-days"]
-    end
+## 🄄 End-to-End Outbound Workflow Architecture
 
-    Root --> Strat
-    Root --> Exec
-    Root --> Enablement
-    Root --> Compliance
-    Root --> Proof
+---
 
-    ICP --> AIWorkflows
-    Signals --> AIWorkflows
-    AIWorkflows --> Stack
-    Stack --> Ops
-    Metrics --> ICP
+P``mermaid
+flowchart LR
+    A[Intent Signals] --> B[Decay Scoring Engine]
+    B --> C[AI Account Brief Generator]
+    C --> D[BDR Approval & Review]
+    D --> E[Outreach Sequences]
+    E --> F[Orum Call Blocks]
+    F --> G[Meeting Set -> Held -> SQO]
+    G --> H[1:1 Coaching & Gong Game Film Loop]
+    H --> D
+ ```
 
-    class Root primary
-    class Ops,ICP,Signals,Metrics strategy
-    class Campaigns,AIWorkflows,ToolEval,Stack execution
-    class Coaching,Hiring,Alignment,Content,Legal,Coverage tools
-    class CaseStudies,Interactive,Plan90 primary
+---
+
+## 🶠 Runnable Tooling & Local Quickstart
+
+###1. Run the Signal Time-Decay Calculator
+Computes time-decayed weights for buyer intent signals:
+g``bash
+python3 01-strategy-and-operations/03-signals-and-research/decay_calculator.py
+```J
+3##2. Run the Account Scoring Engine
+Scores target accounts against ICP criteria:
+g``bash
+python3 01-strategy-and-operations/02-icp-and-account-scoring/score_accounts.py
+```
+
+###3. Run Automated Tests & Prompt Evals
+gb`bash
+pytest
 ```
 
 ---
 
-## Quick Start Commands
+## 🍵 Repository Structure
 
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Score target accounts using fit & signal weights
-python 01-strategy-and-operations/02-icp-and-account-scoring/score_accounts.py sample-data/accounts.csv
-
-# 3. Validate conversion lift against historical datasets
-python 01-strategy-and-operations/02-icp-and-account-scoring/backtest.py sample-data/historical.csv
-
-# 4. Generate AI account brief & personalized hooks (dry-run mode)
-python 02-execution-and-workflows/08-ai-workflows/pipeline.py build sample-data/accounts.csv sample-data/contacts.csv
-
-# 5. Process human-approved briefs into sequence execution payloads
-python 02-execution-and-workflows/08-ai-workflows/pipeline.py enroll approval_queue.csv
-```
-> 📖 **Documentation & Wiki:** View the complete operational playbook and architectural guides on our [GitHub Wiki](https://github.com/peytonbackus-spec/bd-leadership/wiki).
+* `01-strategy-and-operations/` — Account scoring models, intent signal calculators, capacity math, and system glossary.
+* `02-execution-and-workflows/` — AI research pipelines, sequence designs, and Salesforce / Outreach / Orum sync specs.
+* `0-team-and-enablement/` — Coaching scorecards, call evaluation rubrics, BDR ramps, and content enablement.
+* `04-compliance-and-coverage/` — Deliverability guardrails, CAN-SPAM/CASL compliance, and timezone routing models.
+* `05-proof-and-tools/` — First 90 Days leadership blueprint, case studies, and interactive capacity calculators.
