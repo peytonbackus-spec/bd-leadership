@@ -1,0 +1,6 @@
+contact_id,account_id,first_name,last_name,title,email
+201,101,Sarah,Connor,VP of Operations,sconnor@acme.com
+202,102,John,Smith,Director of Supply Chain,jsmith@betalogistics.com
+203,103,Ellen,Ripley,Head of Revenue Operations,eripley@gammasystems.com
+204,104,James,Holden,VP Finance,jholden@deltahealth.com
+205,105,Naomi,Nagata,CTO,nnagata@epsilontech.com
