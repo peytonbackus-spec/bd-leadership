@@ -13,7 +13,7 @@ bounded_autonomy_note: human-invoked utility prompt, not an autonomous backgroun
 
 **Type:** GTM Strategy & Advisory
 
-**Status: net-new** -- no equivalent exists elsewhere in this vault yet.
+**Status: net-new** -- no equivalent exists elsewhere in this repo yet.
 
 ## System Prompt
 ```

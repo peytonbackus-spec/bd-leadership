@@ -7,7 +7,7 @@ last_modified: 2026-09-25
 
 # Speed-to-Lead SLA MCP Server (Proof of Concept)
 
-The first real implementation of the "L2 Automation" layer this vault's architecture has promised since CLAUDE.md was written -- see the 2026-09-25 audit, Critical Finding #3: every Workflow Contract declared `allowed_mcp_tools` but none of them existed as actual code. This closes that gap for one contract, [speed-to-lead-sla-contract](../../gtm-prompt-library/contracts/speed-to-lead-sla-contract.md), as a template for the other three.
+The first real implementation of the "L2 Automation" layer this repo's architecture has promised since CLAUDE.md was written -- see the 2026-09-25 audit, Critical Finding #3: every Workflow Contract declared `allowed_mcp_tools` but none of them existed as actual code. This closes that gap for one contract, [speed-to-lead-sla-contract](../../gtm-prompt-library/contracts/speed-to-lead-sla-contract.md), as a template for the other three.
 
 **Run the smoke test (works with no setup, no credentials):**
 ```bash

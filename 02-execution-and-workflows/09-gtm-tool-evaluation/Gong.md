@@ -9,139 +9,23 @@ tags:
 id: gong
 type: tool-profile
 last_modified: 2026-09-25
-migrated_from: obsidian-orphaned-vault
 ---
-
 
 # 🛠️ Market Intelligence: Gong
 
-**Category:** Sales_Execution_Engagement
-**Reviews Analyzed:** 21
+**Category:** Sales_Execution_Engagement  
+**Reviews Analyzed:** 21 (aggregated from public G2/Capterra-style review mining)
 
-## 📝 Raw Review Log
+## Top Pros
+- **Helpful** (301 mentions)
+- **Ease of Use** (240 mentions)
+- **Call Recording** (194 mentions)
+- **Accuracy** (188 mentions)
+- **AI Summary** (186 mentions)
 
-### 1. Review #1
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** [{'label': 'Helpful', 'mentions': 301}, {'label': 'Ease of Use', 'mentions': 240}, {'label': 'Call Recording', 'mentions': 194}, {'label': 'Accuracy', 'mentions': 188}, {'label': 'AI Summary', 'mentions': 186}]
-- **Cons:** [{'label': 'Call Issues', 'mentions': 119}, {'label': 'Recording Issues', 'mentions': 77}, {'label': 'AI Inaccuracy', 'mentions': 69}, {'label': 'AI Limitations', 'mentions': 67}, {'label': 'Missing Features', 'mentions': 60}]
-
-### 2. Review #2
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 3. Review #3
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 4. Review #4
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 5. Review #5
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 6. Review #6
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 7. Review #7
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 8. Review #8
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 9. Review #9
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 10. Review #10
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 11. Review #11
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 12. Review #12
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 13. Review #13
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 14. Review #14
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 15. Review #15
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 16. Review #16
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 17. Review #17
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 18. Review #18
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 19. Review #19
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 20. Review #20
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
-
-### 21. Review #21
-- **Rating:** ⭐ N/A/5
-- **Reviewer Role:** N/A (N/A)
-- **Pros:** N/A
-- **Cons:** N/A
+## Top Cons
+- **Call Issues** (119 mentions)
+- **Recording Issues** (77 mentions)
+- **AI Inaccuracy** (69 mentions)
+- **AI Limitations** (67 mentions)
+- **Missing Features** (60 mentions)
