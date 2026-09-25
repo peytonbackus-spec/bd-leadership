@@ -3,7 +3,6 @@ id: skill-sales-development-strategy
 type: skill
 tags: [skill, sdr, outbound, objection-handling]
 last_modified: 2026-09-25
-confidence_score: 0.4
 ---
 
 # Sales Development Strategy

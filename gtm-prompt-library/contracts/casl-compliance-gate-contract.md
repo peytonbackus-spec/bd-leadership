@@ -3,7 +3,6 @@ id: contract-casl-compliance-gate
 type: contract-index
 tags: [contract, workflow-contract, compliance]
 last_modified: 2026-09-25
-confidence_score: 1.0
 ---
 
 # CASL Compliance Gate Agent -- Workflow Contract

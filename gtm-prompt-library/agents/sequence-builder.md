@@ -6,7 +6,6 @@ last_modified: 2026-09-25
 function: Outbound SDR
 purpose: Outreach Execution
 priority: P0
-confidence_score: 0.5
 bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
@@ -28,4 +27,4 @@ Designing outbound sequences for SDR/BDR campaigns.
 [sales-development-strategy](../skills/sales-development-strategy.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub . index
+00-Prompt-Library-Index . _Skill_Matrix_Hub

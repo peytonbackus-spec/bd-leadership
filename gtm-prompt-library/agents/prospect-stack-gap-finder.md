@@ -6,7 +6,6 @@ last_modified: 2026-09-25
 function: Outbound SDR
 purpose: Targeting
 priority: P1
-confidence_score: 0.4
 bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
@@ -28,4 +27,4 @@ Selling INTO a gap in a prospect's stack, distinct from /tech-stack-audit which 
 tech-stack-audit . GTM Intelligence Overview
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub . index
+00-Prompt-Library-Index . _Skill_Matrix_Hub

@@ -6,7 +6,6 @@ function: Inbound SDR
 purpose: Intake & Qualification
 priority: P0
 last_modified: 2026-09-25
-confidence_score: 0.45
 bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 promoted_to_contract: inbound-lead-qualifier-contract
 ---
@@ -33,4 +32,4 @@ The full inbound intake job -- broader than pure scoring: enrichment + dedup + o
 [lead-scoring](lead-scoring.md) . [icp-builder](icp-builder.md) . revops-schema
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy . index
+00-Prompt-Library-Index . full-org-agent-taxonomy

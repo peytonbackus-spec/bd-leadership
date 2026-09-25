@@ -6,7 +6,6 @@ last_modified: 2026-09-25
 function: Outbound SDR
 purpose: Outreach Execution
 priority: P1
-confidence_score: 0.4
 bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
@@ -28,4 +27,4 @@ Equipping outbound teams with phone playbooks that bypass initial resistance.
 [sales-development-strategy](../skills/sales-development-strategy.md) . [Orum](../../02-execution-and-workflows/09-gtm-tool-evaluation/Orum.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub . index
+00-Prompt-Library-Index . _Skill_Matrix_Hub

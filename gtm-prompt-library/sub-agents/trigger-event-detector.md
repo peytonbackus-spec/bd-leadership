@@ -3,7 +3,6 @@ id: subagent-trigger-event-detector
 type: sub-agent
 tags: [sub-agent, shared-primitive]
 last_modified: 2026-09-25
-confidence_score: 0.4
 bounded_autonomy_note: invoked within a human-invoked parent agent's single turn; if any calling parent is later promoted to an autonomous gtm-os/contracts/ Workflow Contract, this sub-agent's role belongs in that contract's role_map (see pipeline-risk-contract.yaml's data_audit_agent/synthesis_agent split for the existing precedent)
 ---
 

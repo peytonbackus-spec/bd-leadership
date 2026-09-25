@@ -3,7 +3,6 @@ id: contract-speed-to-lead-sla
 type: contract-index
 tags: [contract, workflow-contract, inbound-sdr]
 last_modified: 2026-09-25
-confidence_score: 1.0
 ---
 
 # Speed-to-Lead SLA Agent -- Workflow Contract
