@@ -1,0 +1,41 @@
+{
+  "leads": [
+    {
+      "id": "00Q_mock_001",
+      "name": "Jordan Reyes",
+      "company": "Northwind Analytics",
+      "score_tier": "Tier 1 (Hot)",
+      "created_at": "2026-09-25T16:19:05Z"
+    },
+    {
+      "id": "00Q_mock_002",
+      "name": "Priya Shah",
+      "company": "Basecamp Robotics",
+      "score_tier": "Tier 2 (Warm)",
+      "created_at": "2026-09-25T15:36:05Z"
+    },
+    {
+      "id": "00Q_mock_003",
+      "name": "Devon Clarke",
+      "company": "Fen & Co.",
+      "score_tier": "Tier 3 (Cold)",
+      "created_at": "2026-09-23T16:21:05Z"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "evt_mock_001",
+      "contact_id": "003_mock_001",
+      "scheduled_at": "2026-09-25T15:21:05Z",
+      "status": "no_show",
+      "recovery_triggered": false
+    },
+    {
+      "id": "evt_mock_002",
+      "contact_id": "003_mock_002",
+      "scheduled_at": "2026-09-25T11:21:05Z",
+      "status": "completed",
+      "recovery_triggered": false
+    }
+  ]
+}
