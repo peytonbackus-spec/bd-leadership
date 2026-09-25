@@ -27,4 +27,4 @@ Selling INTO a gap in a prospect's stack, distinct from /tech-stack-audit which 
 tech-stack-audit . GTM Intelligence Overview
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

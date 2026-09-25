@@ -27,4 +27,4 @@ Optimizing conversion rates on inbound demo requests and contact forms.
 [lead-scoring](lead-scoring.md) . [Chili Piper](../../02-execution-and-workflows/09-gtm-tool-evaluation/Chili Piper.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

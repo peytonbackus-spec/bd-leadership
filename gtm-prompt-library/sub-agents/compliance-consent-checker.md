@@ -20,4 +20,4 @@ Given a target contact for outreach, check whether implied consent (existing bus
 3 different top-level agents need this exact primitive. Rather than each parent re-deriving the logic, they invoke this shared sub-agent and consume its output -- one place to fix or improve the logic instead of 3.
 
 ## See Also
-Sub-Agent Layer . 00-Prompt-Library-Index . full-org-agent-taxonomy
+[gtm-prompt-library/README](../README.md)

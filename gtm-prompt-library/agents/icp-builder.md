@@ -27,4 +27,4 @@ Quantifying target account profiles before launching outbound pipeline generatio
 [sales-development-strategy](../skills/sales-development-strategy.md) . l2a_matching_engine
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

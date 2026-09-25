@@ -32,4 +32,4 @@ The full inbound intake job -- broader than pure scoring: enrichment + dedup + o
 [lead-scoring](lead-scoring.md) . [icp-builder](icp-builder.md) . revops-schema
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy
+[gtm-prompt-library/README](../README.md)

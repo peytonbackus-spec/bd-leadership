@@ -29,4 +29,4 @@ Channel-specific script -- sequence-builder covers LinkedIn generically as one t
 [sequence-builder](sequence-builder.md)
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy
+[gtm-prompt-library/README](../README.md)

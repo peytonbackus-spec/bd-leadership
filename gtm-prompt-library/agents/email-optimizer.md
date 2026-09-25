@@ -27,4 +27,4 @@ Ensuring cold email copy bypasses spam filters and maximizes reply rates.
 [sequence-builder](sequence-builder.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

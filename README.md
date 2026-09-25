@@ -68,6 +68,7 @@ pytest
 
 15 curated prompt agents + 5 shared sub-agents + 3 bounded-autonomy Workflow Contracts, scoped to inbound/outbound SDR leadership specifically (pulled from a broader 53-agent library and filtered down -- no AE/CS/RevOps-engineering material here).
 
+- [`gtm-prompt-library/README.md`](gtm-prompt-library/README.md) -- full index of every agent, sub-agent, skill, and contract in this section
 - [`gtm-prompt-library/agents/`](gtm-prompt-library/agents/) -- speed-to-lead SLA enforcement, inbound qualification, sequencing, objection handling, CASL compliance, and more
 - [`gtm-prompt-library/sub-agents/`](gtm-prompt-library/sub-agents/) -- ICP fit scoring, trigger-event detection, consent checking, objection mapping, competitive intel lookup
 - [`gtm-prompt-library/contracts/`](gtm-prompt-library/contracts/) -- `speed-to-lead-sla`, `inbound-lead-qualifier`, `casl-compliance-gate`
