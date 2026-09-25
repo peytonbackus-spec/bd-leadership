@@ -1,6 +1,6 @@
 # Outbound BDR Leadership & GTM Execution Operating System
 
-! [Build Status](h-ttps://github.com/peytonbackus-spec/bd-leadership/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/peytonbackus-spec/bd-leadership/actions/workflows/ci.yml/badge.svg)
 
 > **How I build, coach, and scale outbound BDR teams — backed by hands-on sales development, structured coaching cadences, and automated AI workflows for scoring, research, and sequencing.**
 
@@ -63,6 +63,15 @@ pytest
 ```
 
 ---
+
+## 🧠 GTM Prompt & Agent Library
+
+15 curated prompt agents + 5 shared sub-agents + 3 bounded-autonomy Workflow Contracts, scoped to inbound/outbound SDR leadership specifically (pulled from a broader 53-agent library and filtered down -- no AE/CS/RevOps-engineering material here).
+
+- [`gtm-prompt-library/agents/`](gtm-prompt-library/agents/) -- speed-to-lead SLA enforcement, inbound qualification, sequencing, objection handling, CASL compliance, and more
+- [`gtm-prompt-library/sub-agents/`](gtm-prompt-library/sub-agents/) -- ICP fit scoring, trigger-event detection, consent checking, objection mapping, competitive intel lookup
+- [`gtm-prompt-library/contracts/`](gtm-prompt-library/contracts/) -- `speed-to-lead-sla`, `inbound-lead-qualifier`, `casl-compliance-gate`
+- [`02-execution-and-workflows/08-ai-workflows/speed-to-lead-README.md`](02-execution-and-workflows/08-ai-workflows/speed-to-lead-README.md) -- a working (proof-of-concept) MCP server implementing the speed-to-lead SLA contract
 
 ## 🍵 Repository Structure
 
