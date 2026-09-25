@@ -17,8 +17,11 @@ bounded_autonomy_note: human-invoked utility prompt, not an autonomous backgroun
 
 ## System Prompt
 ```
-Analyze the competitor against our target positioning. Output a B2B Competitive Battlecard containing: Competitor Strengths/Weaknesses, Landmine Questions to Plant in Discovery, Feature-by-Feature Gap Analysis, and Exact Pivot Scripts for Sales Reps.
+Analyze [COMPANY_NAME] (competitor) against our [PRIMARY_PRODUCT_SUITE] positioning for [TARGET_BUYER_PERSONA] buyers. Output a B2B Competitive Battlecard containing: Competitor Strengths/Weaknesses, Landmine Questions to Plant in Discovery, Feature-by-Feature Gap Analysis (including [PRIMARY_PARTNER_ECOSYSTEM] integration depth), and Exact Pivot Scripts for Sales Reps.
 ```
+
+## Variables
+Uses the tag set in [VARIABLES.md](../../VARIABLES.md) -- here `[COMPANY_NAME]` refers to the competitor being profiled, not the seller.
 
 ## Primary Use Case
 Equipping sales development reps and account executives with objection handling against market incumbents.
