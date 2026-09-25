@@ -9,7 +9,6 @@ tags:
 id: chili-piper
 type: tool-profile
 last_modified: 2026-09-25
-confidence_score: 0.6
 migrated_from: obsidian-orphaned-vault
 ---
 
@@ -146,4 +145,3 @@ migrated_from: obsidian-orphaned-vault
 - **Reviewer Role:** N/A (N/A)
 - **Pros:** N/A
 - **Cons:** N/A
-

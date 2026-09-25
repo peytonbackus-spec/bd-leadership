@@ -6,7 +6,6 @@ tags:
 id: gtm-friction-heatmap
 type: concept-dashboard
 last_modified: 2026-09-25
-confidence_score: 0.5
 migrated_from: obsidian-orphaned-vault
 ---
 

@@ -6,7 +6,6 @@ function: Outbound SDR
 purpose: Legal Compliance
 priority: P0
 last_modified: 2026-09-25
-confidence_score: 0.45
 bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 promoted_to_contract: casl-compliance-gate-contract
 ---
@@ -36,4 +35,4 @@ Peyton's consulting firm is Ontario-registered and its core delivery stack (Apol
 [CASL Compliance Research](../../raw-sources/01-casl-compliance.md)
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy . Sub-Agent Layer . index
+00-Prompt-Library-Index . full-org-agent-taxonomy . Sub-Agent Layer

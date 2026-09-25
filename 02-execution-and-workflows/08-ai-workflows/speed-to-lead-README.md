@@ -3,7 +3,6 @@ id: mcp-speed-to-lead-readme
 type: automation
 tags: [mcp, automation, proof-of-concept]
 last_modified: 2026-09-25
-confidence_score: 0.5
 ---
 
 # Speed-to-Lead SLA MCP Server (Proof of Concept)

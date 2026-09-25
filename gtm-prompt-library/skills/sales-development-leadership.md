@@ -3,7 +3,6 @@ id: skill-sales-development-leadership
 type: skill
 tags: [skill, sdr-leadership, bdr-leadership, coaching, hiring]
 last_modified: 2026-09-25
-confidence_score: 0.4
 ---
 
 # Sales Development Leadership

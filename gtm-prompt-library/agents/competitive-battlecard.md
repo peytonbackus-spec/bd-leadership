@@ -6,7 +6,6 @@ last_modified: 2026-09-25
 function: Outbound SDR
 purpose: Objection Handling
 priority: P1
-confidence_score: 0.5
 bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
@@ -28,4 +27,4 @@ Equipping sales development reps and account executives with objection handling 
 [sales-development-strategy](../skills/sales-development-strategy.md) . [Buyer Objections Heatmap](../../02-execution-and-workflows/09-gtm-tool-evaluation/Buyer Objections Heatmap.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub . index
+00-Prompt-Library-Index . _Skill_Matrix_Hub

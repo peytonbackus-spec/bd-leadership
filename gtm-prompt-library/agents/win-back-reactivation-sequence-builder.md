@@ -6,7 +6,6 @@ function: Outbound SDR
 purpose: Pipeline Recovery
 priority: P1
 last_modified: 2026-09-25
-confidence_score: 0.45
 bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
@@ -33,4 +32,4 @@ win-loss-analyzer . [account-research-brief](account-research-brief.md)
 Closed-Lost Reactivation Research
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy . Sub-Agent Layer . index
+00-Prompt-Library-Index . full-org-agent-taxonomy . Sub-Agent Layer
