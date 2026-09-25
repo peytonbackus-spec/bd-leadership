@@ -13,7 +13,7 @@ bounded_autonomy_note: human-invoked utility prompt, not an autonomous backgroun
 
 **Type:** Sales Development
 
-**Status: partial overlap** -- related material already exists elsewhere in this vault; this note captures the reusable prompt form specifically.
+**Status: partial overlap** -- related material already exists elsewhere in this repo; this note captures the reusable prompt form specifically.
 
 ## System Prompt
 ```
