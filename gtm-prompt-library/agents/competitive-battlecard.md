@@ -27,4 +27,4 @@ Equipping sales development reps and account executives with objection handling 
 [sales-development-strategy](../skills/sales-development-strategy.md) . [Buyer Objections Heatmap](../../02-execution-and-workflows/09-gtm-tool-evaluation/Buyer Objections Heatmap.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

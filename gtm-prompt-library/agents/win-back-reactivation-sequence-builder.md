@@ -32,4 +32,4 @@ win-loss-analyzer . [account-research-brief](account-research-brief.md)
 Closed-Lost Reactivation Research
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy . Sub-Agent Layer
+[gtm-prompt-library/README](../README.md)

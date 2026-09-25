@@ -32,4 +32,4 @@ Speed-to-lead is the single highest-leverage inbound metric -- this formalizes i
 [inbound-playbook](inbound-playbook.md) . [Chili Piper](../../02-execution-and-workflows/09-gtm-tool-evaluation/Chili Piper.md)
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy
+[gtm-prompt-library/README](../README.md)

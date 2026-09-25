@@ -27,4 +27,4 @@ Optimizing inbound lead triage and inbound-to-outbound routing rules.
 meddpicc_health_engine . [icp-builder](icp-builder.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

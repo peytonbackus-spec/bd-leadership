@@ -27,4 +27,4 @@ Pre-call/pre-sequence research so outbound leads with a real trigger event inste
 [icp-builder](icp-builder.md) . clay-waterfall
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

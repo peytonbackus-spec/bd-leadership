@@ -27,4 +27,4 @@ Equipping outbound teams with phone playbooks that bypass initial resistance.
 [sales-development-strategy](../skills/sales-development-strategy.md) . [Orum](../../02-execution-and-workflows/09-gtm-tool-evaluation/Orum.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

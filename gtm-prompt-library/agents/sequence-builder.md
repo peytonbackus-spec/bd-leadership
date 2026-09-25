@@ -27,4 +27,4 @@ Designing outbound sequences for SDR/BDR campaigns.
 [sales-development-strategy](../skills/sales-development-strategy.md)
 
 ## See Also
-00-Prompt-Library-Index . _Skill_Matrix_Hub
+[gtm-prompt-library/README](../README.md)

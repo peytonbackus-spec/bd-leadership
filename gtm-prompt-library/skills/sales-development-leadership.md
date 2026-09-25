@@ -38,4 +38,4 @@ targets per phase.
 - [ ] Career ladder criteria documented and communicated
 
 ## See Also
-_Skill_Matrix_Hub · index · [sales-development-strategy](sales-development-strategy.md) · sales-leadership
+[gtm-prompt-library/README](../README.md) · [sales-development-strategy](sales-development-strategy.md)

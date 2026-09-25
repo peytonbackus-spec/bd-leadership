@@ -16,4 +16,4 @@ Companion note for `speed-to-lead-sla-contract.yaml` -- resolves `[speed-to-lead
 > **Automation built (proof of concept):** the speed-to-lead MCP server implements this contract's tools -- 1 of 5 is real logic, 4 are mocked pending CRM/calendar/Slack/sequencer credentials.
 
 ## See Also
-[speed-to-lead-sla-enforcer](../agents/speed-to-lead-sla-enforcer.md) . 00-Agent-Router . full-org-agent-taxonomy
+[speed-to-lead-sla-enforcer](../agents/speed-to-lead-sla-enforcer.md) . [gtm-prompt-library/README](../README.md)

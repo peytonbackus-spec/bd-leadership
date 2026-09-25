@@ -35,4 +35,4 @@ Peyton's consulting firm is Ontario-registered and its core delivery stack (Apol
 [CASL Compliance Research](../../raw-sources/01-casl-compliance.md)
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy . Sub-Agent Layer
+[gtm-prompt-library/README](../README.md)

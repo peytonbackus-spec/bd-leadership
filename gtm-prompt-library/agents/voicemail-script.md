@@ -29,4 +29,4 @@ High-frequency micro-skill for dial-heavy outbound (Orum/parallel dialing) -- di
 [cold-call-script](cold-call-script.md) . [Orum](../../02-execution-and-workflows/09-gtm-tool-evaluation/Orum.md)
 
 ## See Also
-00-Prompt-Library-Index . full-org-agent-taxonomy
+[gtm-prompt-library/README](../README.md)
