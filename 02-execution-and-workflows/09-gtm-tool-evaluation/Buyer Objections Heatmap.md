@@ -1,10 +1,10 @@
 ---
-tags: [type/gtm]
+tags:
+  - type/gtm
   - wiki/competitive
 id: buyer-objections-heatmap
 type: concept-dashboard
 last_modified: 2026-09-25
-migrated_from: obsidian-orphaned-vault
 ---
 
 # 🎯 GTM Tool Buyer Friction & Objections Heatmap
