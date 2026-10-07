@@ -1,7 +1,7 @@
 # SYSTEM GOVERNANCE & BEHAVIORAL MANUAL
 
 ## 1. What This Repo Is
-Curated BDR/SDR-leadership subset of `gtm-revops-toolkit`, built specifically for Peyton's Loopio Manager, Business Development application -- coaching frameworks, ICP/account-scoring, outbound cadence/messaging, and GTM-tool evaluation content, with consulting/client content removed.
+Curated BDR/SDR-leadership subset of `gtm-revops-toolkit`, built for Peyton's Manager, Business Development roles -- coaching frameworks, ICP/account-scoring, outbound cadence/messaging, and GTM-tool evaluation content, with consulting/client content removed.
 
 ## 2. Operating Rules & Boundaries
 - **Public repo:** never add confidential business content, client-specific data, or real company data.
