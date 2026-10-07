@@ -8,13 +8,15 @@ tags:
   - gtm/tool/salesloft
 id: salesloft
 type: tool-profile
-last_modified: 2026-09-25
+last_modified: 2026-10-07
 ---
 
 # 🛠️ Market Intelligence: Salesloft
 
-**Category:** Sales_Execution_Engagement  
-**Reviews Analyzed:** 21 (aggregated from public G2/Capterra-style review mining)
+> Vendor figures in this profile are as of Oct 2026 and mostly vendor-reported. Verify against the vendor's own page before relying on them.
+
+**Category:** Sales_Execution_Engagement
+**Reviews Analyzed:** 21
 
 ## Top Pros
 - **Ease of Use** (569 mentions)
@@ -29,3 +31,6 @@ last_modified: 2026-09-25
 - **Integration Issues** (134 mentions)
 - **Limitations** (123 mentions)
 - **Learning Curve** (116 mentions)
+
+## 2026 Currency Update (added 2026-10-01)
+Per Salesloft's Sep 2 2026 release: Salesloft and Clari now operate as one company under the Salesloft brand (Clari Forecast keeps its name), CEO Steve Cox, 4,000+ customer organizations; shipped a Salesloft MCP Server and a unified Conversation Intelligence product. Product integration is ongoing -- check roadmap before assuming a single data model.

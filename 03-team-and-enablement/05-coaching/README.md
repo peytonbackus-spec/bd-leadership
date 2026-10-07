@@ -11,3 +11,6 @@
 - **Discovery:** Uncovered key business friction or confirmed tech stack.
 - **Objection Handling:** Acknowledged, re-framed, and asked control question.
 - **Close:** Definite date and time proposed for AE discovery meeting.
+
+## Running a hybrid human + agent team
+See [Hybrid Team Ownership & Quality-Gated Comp](./hybrid-team-ownership-and-comp.md) for the ownership matrix, comp quality gate and weekly sampled review.

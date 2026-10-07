@@ -21,7 +21,7 @@ My leadership approach balances **people-first coaching** with **operational dis
 
 | Focus Area | Key Deliverables & Playbooks | Description |
 | :-- | :-- | :-- |
-| **1. People & Coaching** | [Coaching Scorecards & Frameworks](./03-team-and-enablement/05-coaching/)<br>[Retention & Team Health](./03-team-and-enablement/06-hiring-and-onboarding/retention-and-team-health.md) | Structured 1:1 call review scorecards, onboarding ramps, and rep development plans. |
+| **1. People & Coaching** | [Coaching Scorecards & Frameworks](./03-team-and-enablement/05-coaching/)<br>[Retention & Team Health](./03-team-and-enablement/06-hiring-and-onboarding/retention-and-team-health.md)<br>[Hybrid Team Ownership & Comp](./03-team-and-enablement/05-coaching/hybrid-team-ownership-and-comp.md) | Structured 1:1 call review scorecards, onboarding ramps, and rep development plans. |
 | **2. Metrics & Strategy** | [First 90 Days Plan](./05-proof-and-tools/11-first-90-days/role-tailored-execution-plan.md)<br>[Unit Economics & Capacity Math](./01-strategy-and-operations/07-metrics-and-forecasting/unit-economics.md)<br>[System Glossary](./01-strategy-and-operations/glossary.md) | Leadership blueprint for Month 1 phone blocks, team diagnostics, capacity models, and terminology source of truth. |
 | **3. AI Systems & Automation** | [Intent Signal Decay Calculator](./01-strategy-and-operations/03-signals-and-research/decay_calculator.py)<br>[Account Research & Brief Pipeline](./02-execution-and-workflows/08-ai-workflows/pipeline.py)<br>[Sync Architecture Spec](./02-execution-and-workflows/12-stack-configuration/sync-architecture.md) | Runnable Python engines for signal time-decay math, LLM account research briefs, and CRM sync rules. |
 

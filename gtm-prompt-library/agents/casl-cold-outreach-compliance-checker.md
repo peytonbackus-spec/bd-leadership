@@ -5,7 +5,7 @@ tags: [prompt-library, outbound-sdr]
 function: Outbound SDR
 purpose: Legal Compliance
 priority: P0
-last_modified: 2026-09-25
+last_modified: 2026-10-07
 bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 promoted_to_contract: casl-compliance-gate-contract
 ---
@@ -26,13 +26,10 @@ Given a cold outbound email or sequence targeting Canadian contacts, check: send
 ```
 
 ## Why This Gap Existed
-Peyton's consulting firm is Ontario-registered and its core delivery stack (Apollo/Clay/sequences) is cold outbound to B2B contacts -- CASL violations carry fines up to $1M CAD per violation from the CRTC. This was a real, unflagged compliance gap, not a hypothetical one.
+Cold B2B outbound to Canadian contacts (Apollo/Clay/sequences) triggers CASL regardless of employer -- violations carry fines up to $1M CAD per violation from the CRTC. Any Canadian-facing outbound role or tool needs this gate; it was a real, unflagged compliance gap when this agent was built. (Scope note 2026-10-01: wording reframed from the consulting-practice rationale to match CLAUDE.md Section 5.)
 
 ## Cross-References
-[sequence-builder](sequence-builder.md) . [email-optimizer](email-optimizer.md)
-
-## Sources
-[CASL Compliance Research](../../raw-sources/01-casl-compliance.md)
+[sequence-builder](../agents/sequence-builder.md) . [email-optimizer](../agents/email-optimizer.md)
 
 ## See Also
-[gtm-prompt-library/README](../README.md)
+[Prompt Library Index](../README.md) . full-org-agent-taxonomy . [Sub-Agent Layer](../README.md)
