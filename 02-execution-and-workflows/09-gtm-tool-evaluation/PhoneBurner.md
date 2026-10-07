@@ -8,17 +8,18 @@ tags:
   - gtm/tool/phoneburner
 id: phoneburner
 type: tool-profile
-last_modified: 2026-09-25
+last_modified: 2026-10-07
 ---
 
 # 🛠️ Market Intelligence: PhoneBurner
 
-**Category:** Parallel Dialers  
-**Reviews Analyzed:** 20 (aggregated from public G2/Capterra-style review mining)
+> Vendor figures in this profile are as of Oct 2026 and mostly vendor-reported. Verify against the vendor's own page before relying on them.
+
+**Category:** Parallel Dialers
+**Reviews Analyzed:** 20
 
 ## Notable Reviews
-
-| Review Title | Rating |
+| Review | Rating |
 | :--- | :--- |
 | Effortless Sales Calls with Powerful Features | 5/5 |
 | Fast CRM-Integrated Cold Calling with Powerful Tracking and Amazing Support | 5/5 |
@@ -40,3 +41,8 @@ last_modified: 2026-09-25
 | Saving Time with Stellar Support and Efficient Integration | 5/5 |
 | Effective Power Dialer, Needs UI Improvement | 5/5 |
 | Phone Burner: The Best App for Cold Calling | 5/5 |
+
+## 2026 Currency Updates (added 2026-10-02)
+Review-derived pros/cons above are a small historical sample; items below are vendor-reported unless marked secondary, from one refresh pass on 2026-10-02. Source captures are kept in a private research notebook; verify vendor claims against the vendor page before relying on them.
+- **Pricing (vendor pricing page, undated):** Standard $140, Professional $165, Premium $183 per month on annual billing ($165/$195/$215 monthly); add-ons Numbers, ARMOR, Connect Scores.
+- **Product (vendor blog, dated):** Sync for Salesforce (2026-09-26), Reassigned Numbers Database (2026-09-14), spam-flag monitoring tools (2026-06-25) -- compliance and deliverability focus, no AI-agent or MCP launch verified.

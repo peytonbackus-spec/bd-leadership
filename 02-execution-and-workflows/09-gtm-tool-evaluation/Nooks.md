@@ -8,17 +8,18 @@ tags:
   - gtm/tool/nooks
 id: nooks
 type: tool-profile
-last_modified: 2026-09-25
+last_modified: 2026-10-07
 ---
 
 # 🛠️ Market Intelligence: Nooks
 
-**Category:** Parallel Dialers  
-**Reviews Analyzed:** 20 (aggregated from public G2/Capterra-style review mining)
+> Vendor figures in this profile are as of Oct 2026 and mostly vendor-reported. Verify against the vendor's own page before relying on them.
+
+**Category:** Parallel Dialers
+**Reviews Analyzed:** 20
 
 ## Notable Reviews
-
-| Review Title | Rating |
+| Review | Rating |
 | :--- | :--- |
 | Nooks Makes Parallel Calling Fast and Easy, with Great UI, Integrations, and Support | 5/5 |
 | Smart Presence and Intuitive Design for the Win | 5/5 |
@@ -40,3 +41,9 @@ last_modified: 2026-09-25
 | Boosts Connection Rates, Seamless Setup | 5/5 |
 | Reliable Power Dialer with Room for Speed Improvement | 5/5 |
 | Essential Calling, Email, and LinkedIn Touchpoints for Daily Work | 5/5 |
+
+## 2026 Currency Updates (added 2026-10-02)
+Review-derived pros/cons above are a small historical sample; items below are vendor-reported unless marked secondary, from one refresh pass on 2026-10-02. Source captures are kept in a private research notebook; verify vendor claims against the vendor page before relying on them.
+- **Acquisition (vendor blog headline, Aug 2026):** Nooks acquired FullyRamped; article body not read, terms unknown.
+- **Pricing (vendor pricing page, undated):** custom quotes only; four products: AI Dialer, AI Sequencing, Signals and Intelligence, AI Coaching.
+- **Unverified:** any 2026 funding round (latest found: $43M Series B, Oct 2024, outside window); productivity claims are vendor marketing.

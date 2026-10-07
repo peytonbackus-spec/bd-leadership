@@ -8,17 +8,18 @@ tags:
   - gtm/tool/aloware
 id: aloware
 type: tool-profile
-last_modified: 2026-09-25
+last_modified: 2026-10-07
 ---
 
 # 🛠️ Market Intelligence: Aloware
 
-**Category:** Parallel Dialers  
-**Reviews Analyzed:** 20 (aggregated from public G2/Capterra-style review mining)
+> Vendor figures in this profile are as of Oct 2026 and mostly vendor-reported. Verify against the vendor's own page before relying on them.
+
+**Category:** Parallel Dialers
+**Reviews Analyzed:** 20
 
 ## Notable Reviews
-
-| Review Title | Rating |
+| Review | Rating |
 | :--- | :--- |
 | Love using Aloware dialer with Hubspot | 5/5 |
 | Responsive Team That’s Always Ready to Help | 4/5 |
@@ -40,3 +41,10 @@ last_modified: 2026-09-25
 | Practical, Affordable Tool with Solid Support and Room to Grow | 4/5 |
 | Strong Telephony Platform for a Small Business working from HubSpot | 5/5 |
 | Expected less, got more. | 4/5 |
+
+## 2026 Currency Updates (added 2026-10-02)
+Review-derived pros/cons above are a small historical sample; items below are vendor-reported unless marked secondary, from one refresh pass on 2026-10-02. Source captures are kept in a private research notebook; verify vendor claims against the vendor page before relying on them.
+- **Pricing (vendor pricing page, undated):** per-user tiers iPro+AI $30-40, uPro+AI $60-70, xPro+AI $85-100 per month (user minimums apply); starter packs $199/mo (3 users) and $399/mo (5 users); AloAi Voice Agent from 10 cents per minute.
+- **Product (vendor blog, undated):** AloAi Voice Agent, branded calling, RCS messaging and an Intelligent Voice Assistant are listed as current/new.
+- **Unverified:** dates of those launches, any funding or acquisition, any MCP offering.
+- **2026 releases (vendor changelog,):** v11.29.0 (2026-05-07) to v11.39.0 (2026-09-25): AloAi agent templates and voice agent builder (2026-06-18), self-serve RCS, HubSpot RCS and call/SMS workflow triggers, DNC/opt-out overhaul (2026-07-03), Clio and Boulevard integrations. No MCP, funding or acquisition found.

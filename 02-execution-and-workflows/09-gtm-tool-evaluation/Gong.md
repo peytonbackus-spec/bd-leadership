@@ -8,13 +8,15 @@ tags:
   - gtm/tool/gong
 id: gong
 type: tool-profile
-last_modified: 2026-09-25
+last_modified: 2026-10-07
 ---
 
 # 🛠️ Market Intelligence: Gong
 
-**Category:** Sales_Execution_Engagement  
-**Reviews Analyzed:** 21 (aggregated from public G2/Capterra-style review mining)
+> Vendor figures in this profile are as of Oct 2026 and mostly vendor-reported. Verify against the vendor's own page before relying on them.
+
+**Category:** Sales_Execution_Engagement
+**Reviews Analyzed:** 21
 
 ## Top Pros
 - **Helpful** (301 mentions)
@@ -29,3 +31,6 @@ last_modified: 2026-09-25
 - **AI Inaccuracy** (69 mentions)
 - **AI Limitations** (67 mentions)
 - **Missing Features** (60 mentions)
+
+## 2026 Currency Update (added 2026-10-01)
+Per Gong's own releases: ARR above $500M, 55%+ YoY growth (May 2026); Celebrate '26 (Sep 30 2026) launched Gong Activate, Gong Enrich (waterfall-style enrichment with partners incl. Apollo, Lusha, ZoomInfo), a no-code Agent Builder, and Deep Mode. Customer outcome figures (e.g. +26% win rate among early Cisco adopters) are vendor-reported.
