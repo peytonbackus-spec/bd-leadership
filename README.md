@@ -57,10 +57,11 @@ Scores target accounts against ICP criteria:
 python3 01-strategy-and-operations/02-icp-and-account-scoring/score_accounts.py
 ```
 
-### 3. Run Automated Tests & Prompt Evals
+### 3. Run Automated Tests
 ```bash
 pytest
 ```
+The test suite is small: 2 unit tests covering the intent-signal decay calculator (`tests/test_signals.py`). The scoring script, the account research pipeline and the prompt library have no automated tests or prompt evals yet.
 
 ---
 
