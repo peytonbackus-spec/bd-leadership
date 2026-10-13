@@ -78,3 +78,16 @@ def test_folder_target_only_touches_text_files(tmp_path):
 
 def test_repo_synced_folders_are_already_clean():
     assert san.run(san.DEFAULT_TARGETS, check=True) == 0
+
+
+def test_cli_accepts_directory_outside_repo(tmp_path, capsys):
+    """A staging folder given on the command line is cleaned in place, nested files included."""
+    sub = tmp_path / "staging" / "nested"
+    sub.mkdir(parents=True)
+    f = sub / "a.md"
+    f.write_text(DIRTY, encoding="utf-8")
+    assert san.main(["--check", str(tmp_path / "staging")]) == 1
+    assert f.read_text(encoding="utf-8") == DIRTY
+    assert san.main([str(tmp_path / "staging")]) == 0
+    assert "gtm-os/" not in f.read_text(encoding="utf-8")
+    assert san.main(["--check", str(tmp_path / "staging")]) == 0

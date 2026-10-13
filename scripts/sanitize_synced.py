@@ -15,7 +15,8 @@ or `CLAUDE.md` text it has no rule for. Those are listed as path:line and make
 Usage:
     python3 scripts/sanitize_synced.py            # fix files in place
     python3 scripts/sanitize_synced.py --check    # change nothing; exit 1 if anything would change
-    python3 scripts/sanitize_synced.py PATH...    # limit to files or folders (default: synced folders)
+    python3 scripts/sanitize_synced.py PATH...    # limit to files or folders, including a staging
+                                                  # folder outside the repo (default: synced folders)
 """
 import argparse
 import re

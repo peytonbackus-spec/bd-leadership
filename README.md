@@ -115,6 +115,11 @@ It removes vault-only frontmatter lines and tags, rewrites known vault paths to 
 
 The prompt agents themselves have no automated tests. The speed-to-lead MCP server has a `--selftest` smoke run on mock data and has not been run against a live CRM.
 
+### Maintainer notes
+- Run `bash scripts/check_repo.sh` locally before every push.
+- The deny-list check is local-only. It reads the gitignored `.denylist.local` (see `.denylist.local.example`) and is skipped if that file is absent.
+- Run `python3 scripts/sanitize_synced.py --check <folder>` on any synced content before it is copied in.
+
 ### Roadmap (planned, not built)
 - **Denied-party screening API:** call the trade.gov Consolidated Screening List from the pre-send gate. Today this step is a documented process only.
 - **Real LLM call in the hook pipeline:** generate opening lines from `prompts/first_line.md` and gate them with the eval checks before the review queue. Today hooks are a fixed template.
