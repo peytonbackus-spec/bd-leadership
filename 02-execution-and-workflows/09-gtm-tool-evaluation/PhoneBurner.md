@@ -3,7 +3,6 @@ tool: "PhoneBurner"
 category: "Parallel Dialers"
 total_reviews_analyzed: 20
 tags:
-  - wiki/competitive
   - gtm/intelligence
   - gtm/tool/phoneburner
 id: phoneburner

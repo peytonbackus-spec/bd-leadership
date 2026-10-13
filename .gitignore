@@ -12,3 +12,9 @@ processed_outbound.csv
 Thumbs.db
 .vscode/
 .idea/
+scored_accounts.csv
+notification_log.jsonl
+.pytest_cache/
+logs/
+compliance_hold.csv
+.denylist.local

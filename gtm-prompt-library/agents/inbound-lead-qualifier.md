@@ -6,7 +6,6 @@ function: Inbound SDR
 purpose: Intake & Qualification
 priority: P0
 last_modified: 2026-10-07
-bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 promoted_to_contract: inbound-lead-qualifier-contract
 ---
 
@@ -32,7 +31,7 @@ OUTPUT, in this order:
 5. SCORE: the lead score with its components, each labeled HYPOTHESIS if not yet back-tested (see lead-scoring).
 6. ROUTING DECISION: MQL / SAL / disqualify with evidence per factor. If company size or deal size signals above the $100k ARR tier, require HITL approval before auto-routing.
 7. COMPLIANCE FLAG: consent status for Canadian contacts before any outbound touch (see casl-compliance-gate-contract).
-All output is a recommendation for human review; CRM writes are limited to custom fields and need approval where CLAUDE.md requires.
+All output is a recommendation for human review; CRM writes are limited to custom fields and need approval under your CRM governance rules.
 ```
 
 ## Why This Gap Existed
@@ -47,4 +46,4 @@ The full inbound intake job -- broader than pure scoring: enrichment + dedup + o
 [lead-scoring](../agents/lead-scoring.md) . [icp-builder](../agents/icp-builder.md) . revops-schema
 
 ## See Also
-[Prompt Library Index](../README.md) . full-org-agent-taxonomy
+[Prompt Library Index](../README.md)

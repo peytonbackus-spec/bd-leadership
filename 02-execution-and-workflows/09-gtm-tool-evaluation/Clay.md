@@ -3,7 +3,6 @@ tool: "Clay"
 category: "Data_Enrichment_Intent"
 total_reviews_analyzed: 7
 tags:
-  - wiki/competitive
   - gtm/intelligence
   - gtm/tool/clay
 id: clay

@@ -3,7 +3,6 @@ tool: "Avoma"
 category: "Conversation Intelligence"
 total_reviews_analyzed: 20
 tags:
-  - wiki/competitive
   - gtm/intelligence
   - gtm/tool/avoma
 id: avoma

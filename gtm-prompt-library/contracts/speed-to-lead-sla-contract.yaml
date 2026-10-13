@@ -3,13 +3,15 @@ version: 1.0.0
 objective: "Enforce SLA response windows on inbound leads by score tier and trigger no-show recovery cadences for missed booked meetings"
 boundaries:
   readable_paths:
-    - "wiki/skills/inbound-playbook"
-    - "wiki/competitive/Chili Piper"
+    - "gtm-prompt-library/agents/inbound-playbook.md"
+    - "02-execution-and-workflows/09-gtm-tool-evaluation/Chili Piper.md"
+    - "02-execution-and-workflows/08-ai-workflows/mock_data.json"
   writeable_paths:
-    - "intelligence/daily/"
+    - "02-execution-and-workflows/08-ai-workflows/notification_log.jsonl"
   allowed_mcp_tools:
-    - "calendar_read"
-    - "crm_read"
+    - "crm_read_new_leads"
+    - "calendar_read_no_shows"
+    - "evaluate_sla_breach"
     - "slack_notify"
     - "sequencer_enqueue"
 role_map:

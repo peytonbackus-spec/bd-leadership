@@ -33,8 +33,8 @@ The primary objective of BDR leadership is driving predictable, repeatable pipel
 * **AE Handoff Alignment:** Enforce light BDR-to-AE qualification SLAs (`Meeting Held` to `SQO` criteria) so reps are rewarded for high-intent pipeline, not junk meetings.
 
 ### 2. Workflow & AI System Support
-* **Targeting Alignment:** Deploy `Account_Tier__c` rules (`Tier A`, `Tier B`, `Tier C`) to ensure top accounts receive high-touch multi-channel sequences.
-* **Research Automation:** Introduce dry-run AI account briefs to reduce pre-call research time from 15 minutes down to 2 minutes per account.
+* **Targeting Alignment:** Deploy `Account_Tier__c` rules (`Tier 1`, `Tier 2`, `Tier 3`) to ensure top accounts receive high-touch multi-channel sequences.
+* **Research Automation:** Introduce dry-run AI account briefs to cut pre-call research time per account. Measure the baseline in Days 1–30 and set the target from it.
 
 ---
 

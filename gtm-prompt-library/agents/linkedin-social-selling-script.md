@@ -6,7 +6,6 @@ function: Outbound SDR
 purpose: Outreach Execution
 priority: P2
 last_modified: 2026-10-07
-bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
 # /linkedin-social-selling-script -- LinkedIn Social Selling Touch Builder
@@ -43,4 +42,4 @@ Channel-specific script -- sequence-builder covers LinkedIn generically as one t
 [sequence-builder](../agents/sequence-builder.md)
 
 ## See Also
-[Prompt Library Index](../README.md) . full-org-agent-taxonomy
+[Prompt Library Index](../README.md)

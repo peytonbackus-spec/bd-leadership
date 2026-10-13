@@ -3,7 +3,6 @@ tool: "Nooks"
 category: "Parallel Dialers"
 total_reviews_analyzed: 20
 tags:
-  - wiki/competitive
   - gtm/intelligence
   - gtm/tool/nooks
 id: nooks

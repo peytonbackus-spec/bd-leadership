@@ -6,7 +6,6 @@ function: Inbound SDR
 purpose: Response SLA
 priority: P0
 last_modified: 2026-10-07
-bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 promoted_to_contract: speed-to-lead-sla-contract
 ---
 
@@ -46,4 +45,4 @@ Speed-to-lead is the single highest-leverage inbound metric -- this formalizes i
 [inbound-playbook](../agents/inbound-playbook.md) . Chili Piper
 
 ## See Also
-[Prompt Library Index](../README.md) . full-org-agent-taxonomy
+[Prompt Library Index](../README.md)

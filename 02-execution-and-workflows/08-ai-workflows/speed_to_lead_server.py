@@ -2,21 +2,18 @@
 Speed-to-Lead SLA MCP Server -- Proof of Concept
 ==================================================
 
-Implements the `allowed_mcp_tools` declared in
-gtm-os/contracts/speed-to-lead-sla-contract.yaml as real, callable MCP
-tools, closing the "zero automation layer" gap flagged in the
-2026-09-25 vault audit (intelligence/weekly/vault-audit-2026-09-25.md,
-Critical Finding #3).
+Implements the tools behind
+gtm-prompt-library/contracts/speed-to-lead-sla-contract.yaml as callable
+MCP tools.
 
 STATUS: proof of concept. The contract's real objective is enforcing SLA
 response windows against a live CRM + calendar + sequencer. This server
 implements the correct TOOL SHAPES (names, inputs, outputs) so an MCP
 client (e.g. this Claude session, via `claude mcp add`) can call them
-today, but three of the four tools currently read from
-`gtm-os/mcp/speed-to-lead/mock_data.json` instead of a real Salesforce/
-calendar/sequencer API. Swap the `_mock_*` functions for real API calls
-(see gtm-os/mcp/speed-to-lead/README.md, "Wiring real data") without
-changing the tool signatures the contract already declares.
+today, but four of the five tools read from `mock_data.json` or write
+to a local log instead of a real Salesforce/calendar/Slack/sequencer API.
+Swap those function bodies for real API calls (see speed-to-lead-README.md,
+"Wiring real data") without changing the tool signatures.
 
 Run standalone for a smoke test:
     python3 speed_to_lead_server.py --selftest
@@ -59,7 +56,16 @@ MOCK_DATA_PATH = os.path.join(os.path.dirname(__file__), "mock_data.json")
 
 mcp = FastMCP("speed-to-lead-sla")
 
-# SLA windows by score tier, per wiki/skills/sales-development-strategy.md
+# Names of every tool this server exposes. tests/test_speed_to_lead_contract.py
+# checks this against the contract YAML's allowed_mcp_tools.
+REGISTERED_TOOLS = []
+
+
+def _tool(fn):
+    REGISTERED_TOOLS.append(fn.__name__)
+    return mcp.tool()(fn)
+
+# SLA windows by score tier, per gtm-prompt-library/skills/sales-development-strategy.md
 # and the inbound-playbook agent -- centralized here so the contract's
 # enforcement logic and the human-readable docs can't silently diverge.
 SLA_MINUTES_BY_TIER = {
@@ -78,12 +84,12 @@ def _parse_iso(ts: str) -> datetime:
     return datetime.fromisoformat(ts.replace("Z", "+00:00"))
 
 
-@mcp.tool()
+@_tool
 def crm_read_new_leads(since_minutes: int = 60) -> list:
     """
     Read leads created in the CRM within the last `since_minutes` minutes.
 
-    MOCK: reads gtm-os/mcp/speed-to-lead/mock_data.json's "leads" array.
+    MOCK: reads mock_data.json's "leads" array.
     Real implementation: replace with a Salesforce SOQL query against
     Lead/Contact `CreatedDate`, filtered to your inbound record types.
     """
@@ -95,14 +101,13 @@ def crm_read_new_leads(since_minutes: int = 60) -> list:
     ]
 
 
-@mcp.tool()
+@_tool
 def calendar_read_no_shows(lookback_hours: int = 24) -> list:
     """
     Read booked meetings within `lookback_hours` that were marked as
     no-shows and have not yet had a recovery cadence triggered.
 
-    MOCK: reads gtm-os/mcp/speed-to-lead/mock_data.json's "meetings"
-    array. Real implementation: replace with a Calendar/Chili Piper API
+    MOCK: reads mock_data.json's "meetings" array. Real implementation: replace with a Calendar/Chili Piper API
     read, joined against CRM activity to detect the no-show flag.
     """
     data = _load_mock_data()
@@ -115,7 +120,7 @@ def calendar_read_no_shows(lookback_hours: int = 24) -> list:
     ]
 
 
-@mcp.tool()
+@_tool
 def evaluate_sla_breach(lead: dict) -> dict:
     """
     Given a lead record (as returned by crm_read_new_leads), determine
@@ -124,7 +129,7 @@ def evaluate_sla_breach(lead: dict) -> dict:
 
     Real logic, not mocked -- SLA_MINUTES_BY_TIER above is the single
     source of truth the contract enforces against, matching what
-    wiki/skills/sales-development-strategy.md and inbound-playbook
+    gtm-prompt-library/skills/sales-development-strategy.md and inbound-playbook
     document.
     """
     tier = lead.get("score_tier", "Tier 3 (Cold)")
@@ -151,13 +156,13 @@ def evaluate_sla_breach(lead: dict) -> dict:
     }
 
 
-@mcp.tool()
+@_tool
 def slack_notify(channel: str, message: str) -> dict:
     """
     Post an SLA breach/at-risk/no-show-recovery alert to Slack.
 
-    MOCK: prints to stderr and appends to
-    gtm-os/mcp/speed-to-lead/notification_log.jsonl instead of calling
+    MOCK: prints to stderr and appends to notification_log.jsonl
+    (gitignored) instead of calling
     the real Slack API. Real implementation: replace with a
     `slack_sdk.WebClient.chat_postMessage` call using a bot token scoped
     to only the channels this contract's boundaries permit.
@@ -170,18 +175,17 @@ def slack_notify(channel: str, message: str) -> dict:
     return {"ok": True, "mock": True, **entry}
 
 
-@mcp.tool()
+@_tool
 def sequencer_enqueue(contact_id: str, cadence_name: str) -> dict:
     """
     Enqueue a contact into a named outreach cadence (e.g. a no-show
     recovery sequence).
 
-    MOCK: appends to gtm-os/mcp/speed-to-lead/notification_log.jsonl.
+    MOCK: appends to notification_log.jsonl (gitignored).
     Real implementation: replace with an Outreach/Salesloft API call to
     add the prospect to the named sequence. In production this should be
-    gated by the casl-compliance-gate-contract's consent check first --
-    see CLAUDE.md section 2's router note that contracts share the same
-    lookup/enforcement discipline as human-invoked agents.
+    gated by the casl-compliance-gate-contract's consent check and the pre-send
+    compliance gate in 12-stack-configuration/outreach-sequence-design.md.
     """
     entry = {
         "action": "sequencer_enqueue", "contact_id": contact_id,

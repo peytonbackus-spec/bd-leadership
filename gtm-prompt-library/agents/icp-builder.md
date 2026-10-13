@@ -6,7 +6,6 @@ last_modified: 2026-10-07
 function: Outbound SDR
 purpose: Targeting
 priority: P0
-bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
 # /icp-builder -- Account Scoring & ICP Quantifier

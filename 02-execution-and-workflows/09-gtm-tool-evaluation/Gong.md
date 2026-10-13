@@ -3,7 +3,6 @@ tool: "Gong"
 category: "Sales_Execution_Engagement"
 total_reviews_analyzed: 21
 tags:
-  - wiki/competitive
   - gtm/intelligence
   - gtm/tool/gong
 id: gong

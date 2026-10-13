@@ -1,6 +1,5 @@
 ---
 tags:
-  - wiki/competitive
   - gtm/analytics
   - gtm/heatmap
 id: gtm-friction-heatmap

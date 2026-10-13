@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "gtm-os/schemas/speed-to-lead-sla.schema.json",
+  "$id": "gtm-prompt-library/schemas/speed-to-lead-sla.schema.json",
   "title": "Speed-to-Lead SLA Contract -- Tool I/O Schemas",
-  "description": "JSON Schemas for the tool inputs/outputs implemented in gtm-os/mcp/speed-to-lead/speed_to_lead_server.py, matching the allowed_mcp_tools declared in gtm-os/contracts/speed-to-lead-sla-contract.yaml.",
+  "description": "JSON Schemas for the tool inputs/outputs implemented in 02-execution-and-workflows/08-ai-workflows/speed_to_lead_server.py, matching the allowed_mcp_tools declared in gtm-prompt-library/contracts/speed-to-lead-sla-contract.yaml.",
   "definitions": {
     "Lead": {
       "type": "object",

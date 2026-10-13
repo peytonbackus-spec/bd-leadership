@@ -8,7 +8,7 @@ This document defines the bi-directional data flow, field mappings, and complian
 
 ```mermaid
 flowchart LR
-    Clay[Clay / Enrichment] -->|Tier A/B/C & Decayed Scores| CRM[Salesforce CRM]
+    Clay[Clay / Enrichment] -->|Tier 1/2/3 & Decayed Scores| CRM[Salesforce CRM]
     CRM <-->|Accounts, Contacts & Sequences| Outreach[Outreach Cadences]
     Outreach -->|Call Tasks & Phone Fields| Orum[Orum Parallel Dialer]
     Orum -->|Call Dispositions & Call Logs| CRM
@@ -20,7 +20,7 @@ flowchart LR
 
 | Salesforce API Name | Outreach Field | Orum Mapping | Sync Direction | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| `Account_Tier__c` | `Account Tier` | Custom Field | Salesforce -> Outreach -> Orum | Options: `Tier A`, `Tier B`, `Tier C` |
+| `Account_Tier__c` | `Account Tier` | Custom Field | Salesforce -> Outreach -> Orum | Options: `Tier 1`, `Tier 2`, `Tier 3`, `Excluded (geo block)` |
 | `Signal_Score_Decayed__c` | `Signal Score` | Priority Weight | Salesforce -> Outreach -> Orum | Numeric (0–100) computed by Python decay model |
 | `Outbound_Disqualification_Reason__c` | `Disqualification Reason` | Disposition Mapping | Orum -> Salesforce | Picklist options aligned with `glossary.md` |
 | `HasOptedOutOfEmail` | `Email Opt-Out` | N/A | Bidirectional | Email opt-out **ONLY** |

@@ -12,5 +12,7 @@
 - **Objection Handling:** Acknowledged, re-framed, and asked control question.
 - **Close:** Definite date and time proposed for AE discovery meeting.
 
+See the [worked scorecard example](./worked-scorecard-example.md) for one fictional call scored end to end and turned into a single coaching priority.
+
 ## Running a hybrid human + agent team
 See [Hybrid Team Ownership & Quality-Gated Comp](./hybrid-team-ownership-and-comp.md) for the ownership matrix, comp quality gate and weekly sampled review.

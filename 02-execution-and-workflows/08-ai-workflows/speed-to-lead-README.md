@@ -7,11 +7,11 @@ last_modified: 2026-09-25
 
 # Speed-to-Lead SLA MCP Server (Proof of Concept)
 
-The first real implementation of the "L2 Automation" layer this repo's architecture has promised since CLAUDE.md was written -- see the 2026-09-25 audit, Critical Finding #3: every Workflow Contract declared `allowed_mcp_tools` but none of them existed as actual code. This closes that gap for one contract, [speed-to-lead-sla-contract](../../gtm-prompt-library/contracts/speed-to-lead-sla-contract.md), as a template for the other three.
+A working proof of concept for one of the three Workflow Contracts, [speed-to-lead-sla-contract](../../gtm-prompt-library/contracts/speed-to-lead-sla-contract.md): the contract's tools exist as callable MCP tools, with SLA evaluation as real logic and data access mocked. It is a template for wiring the other two contracts. It has not been run against a live CRM.
 
 **Run the smoke test (works with no setup, no credentials):**
 ```bash
-python3 gtm-os/mcp/speed-to-lead/speed_to_lead_server.py --selftest
+python3 02-execution-and-workflows/08-ai-workflows/speed_to_lead_server.py --selftest
 ```
 This reads `mock_data.json`, evaluates each lead against the SLA windows, and logs mock Slack/sequencer actions to `notification_log.jsonl` (gitignored -- see below).
 
@@ -24,15 +24,17 @@ This reads `mock_data.json`, evaluates each lead against the SLA windows, and lo
 | `slack_notify` | Mocked -- appends to `notification_log.jsonl` + prints to stderr. Replace with `slack_sdk.WebClient.chat_postMessage`. |
 | `sequencer_enqueue` | Mocked -- appends to `notification_log.jsonl`. Replace with an Outreach/Salesloft API call. |
 
+**Tool names vs. the contract YAML:** the contract's `allowed_mcp_tools` lists exactly the five tools this server registers. [tests/test_speed_to_lead_contract.py](../../tests/test_speed_to_lead_contract.py) fails if the two drift apart.
+
 ## Wiring real data
 1. Get a Salesforce API user (or Connected App OAuth) with read access to Lead/Contact; replace `crm_read_new_leads`'s body with a `simple-salesforce` SOQL query on `CreatedDate`.
 2. Same pattern for a calendar/Chili Piper API in `calendar_read_no_shows`.
 3. Add a Slack bot token scoped only to the channel(s) this contract's `boundaries.allowed_mcp_tools` permit; swap `slack_notify`'s body for a real `chat_postMessage` call.
 4. Add Outreach/Salesloft API credentials for `sequencer_enqueue` -- **route every call through the CASL compliance gate first** ([casl-compliance-gate-contract](../../gtm-prompt-library/contracts/casl-compliance-gate-contract.md)) before it goes live, since this contract alone doesn't check consent.
-5. Register the server with an MCP client (`claude mcp add speed-to-lead-sla -- python3 gtm-os/mcp/speed-to-lead/speed_to_lead_server.py`) once `pip install mcp` succeeds somewhere with PyPI access -- note this failed on Peyton's own device during this build (network egress blocked the PyPI proxy), so this step needs either a network exception or running the server from a machine/container that has one.
+5. Register the server with an MCP client (`claude mcp add speed-to-lead-sla -- python3 02-execution-and-workflows/08-ai-workflows/speed_to_lead_server.py`) after `pip install mcp`. Without the `mcp` package the script falls back to `--selftest`. Live MCP-client registration has not been tested in this repo.
 
 ## Why this one contract first
-Speed-to-lead is the highest-leverage automation in the whole prompt library to get right: the SLA windows are minutes, not days, so a human-in-the-loop chat invocation is structurally too slow to enforce it. `pipeline-risk` and `inbound-lead-qualifier` are the next-best candidates to wire up using this same pattern.
+Speed-to-lead is the highest-leverage automation in the prompt library to get right. The SLA windows are minutes, not days, so a human-in-the-loop chat invocation is too slow to enforce them. [inbound-lead-qualifier](../../gtm-prompt-library/contracts/inbound-lead-qualifier-contract.md) is the next candidate for the same pattern.
 
 ## See Also
-00-Automation-Layer-Index . [speed-to-lead-sla-contract](../../gtm-prompt-library/contracts/speed-to-lead-sla-contract.md) . [speed-to-lead-sla-enforcer](../../gtm-prompt-library/agents/speed-to-lead-sla-enforcer.md) . Tool I/O Schema
+[speed-to-lead-sla-contract](../../gtm-prompt-library/contracts/speed-to-lead-sla-contract.md) . [speed-to-lead-sla-enforcer](../../gtm-prompt-library/agents/speed-to-lead-sla-enforcer.md) . [Tool I/O Schema](../../gtm-prompt-library/schemas/speed-to-lead-sla.schema.json) . [AI workflows index](./README.md)

@@ -3,7 +3,6 @@ tool: "Apollo.io"
 category: "Data_Enrichment_Intent"
 total_reviews_analyzed: 21
 tags:
-  - wiki/competitive
   - gtm/intelligence
   - gtm/tool/apolloio
 id: apollo-io

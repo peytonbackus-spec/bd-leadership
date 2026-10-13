@@ -3,10 +3,11 @@ version: 1.0.0
 objective: "Enrich, dedupe, score, and route every new inbound lead within 5 minutes of CRM creation, before human review"
 boundaries:
   readable_paths:
-    - "wiki/skills/icp-builder"
-    - "wiki/concepts/gtm-tool-data-models"
+    - "gtm-prompt-library/agents/icp-builder.md"
+    - "gtm-prompt-library/sub-agents/icp-fit-scorer.md"
+    - "02-execution-and-workflows/12-stack-configuration/salesforce-field-spec.md"
   writeable_paths:
-    - "intelligence/daily/"
+    - "logs/inbound-qualifier-decisions.jsonl"
   allowed_mcp_tools:
     - "crm_read"
     - "crm_write_custom_fields_only"
@@ -20,5 +21,5 @@ evidence_standard: "Must cite the exact ICP criteria matched or missed for the s
 stop_rules:
   - "Missing CRM or Clay auth token"
   - "ICP fit confidence score < 0.7"
-  - "Company size or deal-size signal exceeds $100k ARR tier -- requires mandatory HITL approval before auto-routing (mirrors pipeline-risk-contract's enterprise-deal threshold)"
+  - "Company size or deal-size signal exceeds $100k ARR tier -- requires mandatory HITL approval before auto-routing"
   - "Duplicate match confidence between 40-70% (ambiguous) -- flag for human merge decision, never auto-merge"

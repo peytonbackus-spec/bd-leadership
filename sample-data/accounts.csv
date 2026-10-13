@@ -1,6 +1,9 @@
-account_id,account_name,employees,revenue_m,has_salesforce,hiring_signal
-101,Acme Corp,1200,250,True,True
-102,Beta Logistics,150,15,False,False
-103,Gamma Systems,3500,800,True,True
-104,Delta Health,450,60,True,False
-105,Epsilon Tech,80,8,False,True
+account_id,account_name,country,region,employees,revenue_m,has_salesforce,signal_type,signal_date
+101,Acme Corp,US,US-CA,1200,250,True,job_posting,2026-10-06
+102,Beta Logistics,CA,CA-ON,150,15,False,,
+103,Gamma Systems,GB,,3500,800,True,funding_round,2026-08-01
+104,Delta Health,DE,,450,60,True,,
+105,Epsilon Tech,US,US-TX,80,8,False,web_intent,2026-10-12
+106,Zeta Trading,IR,,900,120,True,executive_hire,2026-10-01
+107,Eta Freight,UA,UA-43,600,70,True,,
+108,Theta Analytics,CN,,2000,400,True,tech_stack_change,2026-09-30

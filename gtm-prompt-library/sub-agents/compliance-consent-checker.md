@@ -3,7 +3,6 @@ id: subagent-compliance-consent-checker
 type: sub-agent
 tags: [sub-agent, shared-primitive]
 last_modified: 2026-09-25
-bounded_autonomy_note: invoked within a human-invoked parent agent's single turn; if any calling parent is later promoted to an autonomous gtm-os/contracts/ Workflow Contract, this sub-agent's role belongs in that contract's role_map (see pipeline-risk-contract.yaml's data_audit_agent/synthesis_agent split for the existing precedent)
 ---
 
 # Sub-Agent: Compliance/Consent Checker
@@ -11,7 +10,13 @@ bounded_autonomy_note: invoked within a human-invoked parent agent's single turn
 **Slug:** `compliance-consent-checker`
 
 ## Task (single-purpose, reusable)
-Given a target contact for outreach, check whether implied consent (existing business relationship) applies or express consent is required under CASL, and block the send if neither is documented.
+Given a target contact for outreach, determine the CASL consent basis and block the send if none is documented:
+1. **Express consent:** an opt-in record with timestamp and source (form ID or IP).
+2. **Implied consent, existing business relationship:** a purchase, contract or inquiry inside the CASL time windows, documented in the CRM.
+3. **Implied consent, conspicuous publication:** the address is published (e.g. company website), with **no** statement that the person doesn't want unsolicited commercial messages, **and** the message is relevant to the person's business role or duties. Record where it was published and when it was checked.
+4. **None of the above:** block.
+
+CASL penalties reach C$10M per violation for organizations (C$1M for individuals). Guardrail, not legal advice. See [outbound-compliance.md](../../04-compliance-and-coverage/13-compliance/outbound-compliance.md).
 
 ## Called By (parent agents that invoke this sub-agent)
 [casl-cold-outreach-compliance-checker](../agents/casl-cold-outreach-compliance-checker.md) . [sequence-builder](../agents/sequence-builder.md) . [account-research-brief](../agents/account-research-brief.md)

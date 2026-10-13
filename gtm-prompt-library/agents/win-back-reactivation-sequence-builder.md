@@ -6,7 +6,6 @@ function: Outbound SDR
 purpose: Pipeline Recovery
 priority: P1
 last_modified: 2026-10-07
-bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
 # /win-back-reactivation-sequence-builder -- Closed-Lost & Dormant Account Reactivation Builder
@@ -44,4 +43,4 @@ Closed-lost pipeline is a common, high-ROI, and previously uncovered source of n
 win-loss-analyzer . [account-research-brief](../agents/account-research-brief.md)
 
 ## See Also
-[Prompt Library Index](../README.md) . full-org-agent-taxonomy . [Sub-Agent Layer](../README.md)
+[Prompt Library Index](../README.md) . [Sub-Agent Layer](../README.md)

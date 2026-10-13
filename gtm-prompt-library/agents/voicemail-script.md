@@ -6,7 +6,6 @@ function: Outbound SDR
 purpose: Outreach Execution
 priority: P2
 last_modified: 2026-10-07
-bounded_autonomy_note: human-invoked utility prompt, not an autonomous background agent -- does not require a gtm-os/contracts/ Workflow Contract per CLAUDE.md's bounded-autonomy rule
 ---
 
 # /voicemail-script -- Cold Voicemail Script Generator
@@ -42,4 +41,4 @@ High-frequency micro-skill for dial-heavy outbound (Orum/parallel dialing) -- di
 [cold-call-script](../agents/cold-call-script.md) . Orum
 
 ## See Also
-[Prompt Library Index](../README.md) . full-org-agent-taxonomy
+[Prompt Library Index](../README.md)

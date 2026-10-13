@@ -22,4 +22,7 @@ jobs:
           pip install pytest
       - name: Run PyTest
         run: |
-          pytest tests/
+          pytest
+      - name: Repo Guardrail Checks (content, leakage, links)
+        run: |
+          python scripts/check_repo.py --checks a,b,c

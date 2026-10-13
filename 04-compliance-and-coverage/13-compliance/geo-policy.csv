@@ -1,0 +1,36 @@
+country_code,region_code,name,status,email_rule,phone_rule,reason
+US,,United States,allow,CAN-SPAM opt-out,TCPA/TSR; 8am-9pm local; state rules may be stricter,Baseline market
+CA,,Canada,allow,CASL express or implied consent,CRTC Telemarketing Rules; internal DNC list,CASL consent gate required
+CA,CA-QC,Quebec,allow,CASL express or implied consent,CRTC Telemarketing Rules; internal DNC list,Act s.1 excludes work-contact information from Divisions II and III (checked 2026-10-13)
+GB,,United Kingdom,allow,PECR corporate vs individual subscriber,TPS/CTPS screen,LIA required
+IE,,Ireland,allow,GDPR LIA + national ePrivacy rule,Business-hours policy,LIA required
+FR,,France,allow,GDPR LIA + national ePrivacy rule,Consumer calls opt-in since 2026-08-11 (decret 2026-662); use consent when status doubtful; 2022 hour limits and 4-call cap still apply per DGCCRF (checked 2026-10-13),LIA required
+NL,,Netherlands,allow,GDPR LIA + national ePrivacy rule,Business-hours policy,LIA required
+ES,,Spain,allow,GDPR LIA + national ePrivacy rule,Business-hours policy,LIA required
+SE,,Sweden,allow,GDPR LIA + national ePrivacy rule,Business-hours policy,LIA required
+DE,,Germany,allow,Opt-in only (UWG s.7) - no cold email,Presumed consent documented per account,UWG s.7 applies to B2B
+AT,,Austria,review,Consent generally required for email,Business-hours policy,Strict email consent rules: unverified - confirm with counsel
+AU,,Australia,allow,Spam Act consent incl. inferred from conspicuous publication,Telemarketing Standard hours (in force; sunset 2027-04-01 per Federal Register),
+NZ,,New Zealand,allow,Unsolicited Electronic Messages Act consent incl. inferred,Business-hours policy,
+SG,,Singapore,allow,PDPA; Spam Control Act for bulk email,DNC provisions exclude B2B messages,
+JP,,Japan,allow,Specified Electronic Mail Act opt-in; published-address exception: unverified - confirm with counsel,Business-hours policy,
+IN,,India,allow,DPDP Act consent; rules scope and timing: unverified - confirm with counsel,Business-hours policy,
+BR,,Brazil,allow,LGPD legitimate interest with LIA,Business-hours policy,LIA required
+CN,,China,review,PIPL consent; data-export rules,Business-hours policy,PIPL + export-control screening
+HK,,Hong Kong,review,PDPO direct-marketing consent,Business-hours policy,Treated with China for screening
+MO,,Macau,review,Consent,Business-hours policy,Treated with China for screening
+SY,,Syria,review,n/a,n/a,OFAC program ended 2025-07-01 and State sponsor designation rescinded (checked 2026-10-13); targeted SDN designations remain; verify current status with OFAC and State
+VE,,Venezuela,review,n/a,n/a,Government blocking order and targeted sanctions remain
+MM,,Myanmar,review,n/a,n/a,Targeted sanctions on military and state-owned entities
+UA,,Ukraine,allow,Law on Personal Data Protection; consent-based,Business-hours policy,Occupied regions handled below
+UA,UA-23,Zaporizhzhia oblast,review,n/a,n/a,EU/UK restrictions on non-government-controlled areas
+UA,UA-65,Kherson oblast,review,n/a,n/a,EU/UK restrictions on non-government-controlled areas
+UA,UA-43,Crimea,block,n/a,n/a,OFAC comprehensive region sanctions (EO 13685)
+UA,UA-40,Sevastopol,block,n/a,n/a,OFAC comprehensive region sanctions (EO 13685)
+UA,UA-14,Donetsk oblast (so-called DNR),block,n/a,n/a,OFAC comprehensive region sanctions (EO 14065)
+UA,UA-09,Luhansk oblast (so-called LNR),block,n/a,n/a,OFAC comprehensive region sanctions (EO 14065)
+CU,,Cuba,block,n/a,n/a,OFAC comprehensive embargo
+IR,,Iran,block,n/a,n/a,OFAC comprehensive embargo
+KP,,North Korea,block,n/a,n/a,OFAC comprehensive embargo
+RU,,Russia,block,n/a,n/a,Policy choice - not a comprehensive embargo; broad US/EU/UK/Canada restrictions incl. US IT and software services ban
+BY,,Belarus,block,n/a,n/a,Policy choice - not a comprehensive embargo; extensive US/EU/UK/Canada sanctions
