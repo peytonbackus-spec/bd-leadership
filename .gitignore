@@ -18,3 +18,5 @@ notification_log.jsonl
 logs/
 compliance_hold.csv
 .denylist.local
+node_modules/
+.next/
