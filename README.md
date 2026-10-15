@@ -13,7 +13,7 @@
 
 **Where to start (10 minutes):** the [First 90 Days plan](./05-proof-and-tools/11-first-90-days/role-tailored-execution-plan.md) → the [coaching scorecard and worked example](./03-team-and-enablement/05-coaching/README.md) → the [scoring script and its tests](./01-strategy-and-operations/02-icp-and-account-scoring/README.md).
 
-**What is real and what is not.** The Python is small and runs on fictional sample data (69 tests, all run in CI). No script calls an LLM or a live CRM, sequencer or dialer, and the speed-to-lead MCP server is a proof of concept. Benchmarks and targets in the metrics and onboarding docs are starting points, not measured results. The case studies are anonymized and self-reported. Compliance pages are guardrails, not legal advice, and some items are marked unverified.
+**What is real and what is not.** The Python is small and runs on fictional sample data (70 tests, all run in CI). No script calls an LLM or a live CRM, sequencer or dialer, and the speed-to-lead MCP server is a proof of concept. Benchmarks and targets in the metrics and onboarding docs are starting points, not measured results. The case studies are anonymized and self-reported. Compliance pages are guardrails, not legal advice, and some items are marked unverified.
 
 ---
 
@@ -84,13 +84,13 @@ python3 02-execution-and-workflows/08-ai-workflows/pipeline.py build
 pip install -r requirements.txt
 pytest
 ```
-69 tests, all run in CI:
+70 tests, all run in CI:
 - **Account scoring:** `tests/test_score_accounts.py`, 25 tests. They cover signal decay and the Tier 1 signal requirement, the configurable threshold, tier boundaries, blocked geographies scoring 0, region overrides, and unknown geographies defaulting to review.
 - **Hook pipeline:** `tests/test_pipeline.py`, 8 tests. They cover blocked contacts being skipped and logged, review contacts held with a reason, and the dry-run enroll.
 - **Speed-to-lead contract:** `tests/test_speed_to_lead_contract.py`, 2 tests. The contract's declared tools must equal the server's registered tools, and the contract paths must exist.
 - **Signal decay calculator:** `tests/test_signals.py`, 2 tests.
 - **Repo guardrails:** `tests/test_repo_guardrails.py`, 22 tests. They cover the checker itself (see below).
-- **Vault sanitizer:** `tests/test_sanitize_synced.py`, 8 tests.
+- **Vault sanitizer:** `tests/test_sanitize_synced.py`, 9 tests.
 - **Brief-quality check:** `evals/test_prompt_evals.py`, 2 tests. These check length and banned buzzwords on fixed example strings, not on live model output.
 
 ### 5. Repo Guardrail Checks

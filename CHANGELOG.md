@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Tool profiles: added HubSpot and Salesforce (vendor figures as of Oct 2026, vault links and frontmatter stripped); Clay refreshed with the Sculpt 2026 and Workflow cost controls updates. README test counts corrected to 70 (sanitizer tests: 9).
 - Maintenance: added a README "Maintainer notes" section (local pre-push check, local-only deny-list, sanitizing synced content); `sanitize_synced.py` folder arguments, including a folder outside the repo, are now covered by a test.
 - Compliance: restored checked wording, with primary-source citations already recorded in the repo, for France (calling hours and four-call cap alongside the consent rule), Quebec (Act s.1 work-contact exclusion), the Australian telemarketing standard (in force, scheduled sunset 1 Apr 2027) and Syria's terrorism-sponsor status. Japan, India, Austria and CRTC calling hours for B2B calls remain "Unverified, confirm with counsel". Verification-status table updated.
 - Docs aligned to code: the operating model's ICP now matches the scorer (250–5,000 employees, $50–1,000M revenue), and the inbound-touch SLA is the tiered 5-minute / 30-minute / next-business-day windows in the speed-to-lead server and contract, in place of a flat 15 minutes.

@@ -7,7 +7,7 @@ tags:
   - gtm/tool/clay
 id: clay
 type: tool-profile
-last_modified: 2026-10-07
+last_modified: 2026-10-14
 ---
 
 # 🛠️ Market Intelligence: Clay
@@ -28,3 +28,9 @@ Review-derived pros/cons above are a tiny sample (n=7); these are verified recen
 - **Skills Marketplace (Sep 29 2026):** community skills (plain-language instructions + Clay data) install into Claude Code, Codex or Cursor via the Clay Agent Plugin; free to install, data-pulling skills spend the installer's credits; Clay reviews submissions. It is a skills store for coding agents, not a table-template store.
 - **Functions** replace Recipes/templates for reusable enrichment logic (changelog, week of Sep 14 2026).
 - **Pricing (Mar 2026, third-party analysis):** Explorer tier removed; Launch/Growth tiers; Data Credits split from Actions; API calls metered as Actions. Verify on Clay's pricing page.
+
+## Sculpt 2026 update (added 2026-10-13)
+Per Clay's own recap (vendor-authored, 2026-10-08): the agent-first builder is available to Sculpt attendees, with a wider early-access rollout planned for the coming weeks; Clay Workflows are in beta for all users; the Inbound SDR Agent is a pre-beta waitlist with no date. No pricing or performance data stated. Source capture is kept in a private research notebook; verify against the vendor page.
+
+## Workflow cost controls (added 2026-10-14)
+Clay's changelog (vendor-authored, posted Oct 5) adds Workflow Budgets (credit caps per workflow), bulk re-run with an estimated-cost preview, and trusted domain access (a verified email domain joins with a default role). No pricing change stated. Source capture is kept in a private research notebook; verify against the vendor page.
