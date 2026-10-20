@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Results page: AE customer-facing time is now tagged Estimated (from conversations with AEs); related-work cells updated. Hiring page: written scorecard proposal (still marked Would do).
 - Proof: added a [Results page](05-proof-and-tools/results.md) with eight self-reported before-and-after figures, each tagged measured or estimated; a [cross-functional playbook](03-team-and-enablement/10-cross-functional/cross-functional-playbook.md) of what I ran with AEs, Sales Ops, CS and marketing; and [Hiring for Coachability and Curiosity](03-team-and-enablement/06-hiring-and-onboarding/hiring-and-coachability.md), with each part marked Done or Would do. Case-study banners no longer say no figures are claimed, and the README points to all three.
 - Tool profiles: added HubSpot and Salesforce (vendor figures as of Oct 2026, vault links and frontmatter stripped); Clay refreshed with the Sculpt 2026 and Workflow cost controls updates. README test counts corrected to 70 (sanitizer tests: 9).
 - Maintenance: added a README "Maintainer notes" section (local pre-push check, local-only deny-list, sanitizing synced content); `sanitize_synced.py` folder arguments, including a folder outside the repo, are now covered by a test.

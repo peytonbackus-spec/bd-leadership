@@ -30,13 +30,20 @@ Run inside the case study presentation:
 Candidates who didn't apply the note didn't move forward.
 
 ## Hiring scorecard — Would do
-I'd formalize the above into a written 1–5 scorecard so every interviewer scores the same evidence:
+A proposal, not something I've run: I'd turn the loop above into a written 1–5 scorecard, so every interviewer scores the same evidence and I compare scores before the VP screen.
 
-| Trait | Evidence | 1 looks like | 5 looks like |
-|---|---|---|---|
-| Curiosity | Screen questions | Generic questions, no research | Specific questions built on their own research |
-| Coachability | Role-play, attempt 2 | Repeats attempt 1 or argues with the note | Applies the note and asks a clarifying question |
-| Self-assessment | Role-play self-rating | "Nothing to improve" | Names the same gap the interviewer saw |
+| Trait | Where it's scored | Who scores | 1 looks like | 3 looks like | 5 looks like |
+|---|---|---|---|---|---|
+| Curiosity | Hiring-manager screen | Me | Generic questions, no research done | Some research, questions stay surface-level | Specific questions built on their own research, plus an example of finding something others missed |
+| Self-assessment | Role-play self-rating, before any feedback | Me | "Nothing to improve" | Names a minor gap | Names the same gap I saw, unprompted |
+| Coachability | Role-play, attempt 2 | Me | Repeats attempt 1 or argues with the note | Applies the note partially | Applies the note and asks a clarifying question |
+| Phone fit | Role-play, both attempts | Me and a peer manager | Can't hold the call structure | Holds the structure with prompting | Opens clearly, handles a pushback and asks for the meeting |
+
+**Rules I'd add**
+- Attempt 2 is scored on the change from attempt 1, not on polish.
+- Scores are written down before the debrief, so no one is anchored by the first opinion.
+- A 1 on coachability is a no regardless of the other scores; I'd review the rest case by case.
+- After 90 days I'd compare scores with ramp results to check whether the scorecard predicts anything.
 
 ## Ramp and outcomes — Done
 - All five were prospecting and on the phones by day 3. Daily activity started at 10 prospects and 20 dials and stepped up each day to 30 prospects and 150 dials by the end of week 2.
