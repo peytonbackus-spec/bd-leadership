@@ -1,5 +1,7 @@
 # 06. SDR Hiring & Onboarding Framework
 
+For the interview loop, curiosity questions and two-attempt role-play I've run, and how I use critical feedback, see [Hiring for Coachability and Curiosity](./hiring-and-coachability.md).
+
 ## 30-60-90 Day Onboarding Roadmap
 
 > An example ramp with starting targets, not measured results. Calibrate every number to the team's own quota and sales cycle.
