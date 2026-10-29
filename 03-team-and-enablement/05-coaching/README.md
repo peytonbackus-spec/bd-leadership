@@ -16,3 +16,5 @@ See the [worked scorecard example](./worked-scorecard-example.md) for one fictio
 
 ## Running a hybrid human + agent team
 See [Hybrid Team Ownership & Quality-Gated Comp](./hybrid-team-ownership-and-comp.md) for the ownership matrix, comp quality gate and weekly sampled review.
+
+See [Tailoring AI Output to Each Rep](./tailoring-ai-output-to-reps.md) for per-rep style tailoring, channel limits and review of AI drafts (Done in an account-management setting; BDR use is Would do).
